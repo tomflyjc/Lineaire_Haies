@@ -27,5 +27,5 @@ On remplace enfin dans long_m les valeurs nulle par round($area/LARGEUR)
 
 On utilise encore la couche "Haies" de la BDTOPO, cette couche de lignes est interrogée d'après une distance tampon de recherche que l'utilisateur peut faire varier.
 
-les chemins vers ces couches et la couche scan 25 qui permet les exports cartogreaphiques sont à renseigner dans le corps du plugin avant de pouvoir l'utiliser:
+Les chemins vers ces couches et la couche scan 25 qui permet les exports cartogreaphiques sont à renseigner dans le corps du plugin avant de pouvoir l'utiliser:
 Il s'agit des lignes 97 à 102 du fichier dlgBox_LHP.py
