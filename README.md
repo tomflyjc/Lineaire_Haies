@@ -19,12 +19,13 @@ qui contient les longueurs de haies - attribut 'LONGUEUR'
 et aussi les surfaces de haies - attribut 'SURF_ADM' dont on se servira quand LONGUEUR est null !
 
 On décompresse dans 'W:/5_AUTRES_DONNEES/AGRICULTURE/TELECHARGEMENT_TELEPAC/
-A partir de  de SNA-DE-REFERENCE-2024_021_VG.shp, on crée la couche SNA-DE-REFERENCE-2024_021_VG_HAIE_ONLY.shp"
-pour l'attribut 'TYPE' like 'Haie' 
-On crée encore dans SNA-DE-REFERENCE-2024_021_VG_HAIE_ONLY.shp avec QGIS un attribut 'long_m' avec to_real(LONGUEUR) 
+A partir de  de SNA-DE-REFERENCE-2024_021_VG.shp, on crée la couche SNA-DE-REFERENCE-2024_021_VG_HAIE_ONLY.shp" pour l'attribut 'TYPE' like 'Haie' 
+
+On crée encore dans SNA-DE-REFERENCE-2024_021_VG_HAIE_ONLY.shp avec QGIS un attribut 'long_m' avec to_real(LONGUEUR)
+
 On remplace enfin dans long_m les valeurs nulle par round($area/LARGEUR)
 
-On utilise enfin encore la couche "Haies" de la BDTOPO, cette cocuhe de lignes est interrogée d'après une distance tampon de recherche que l'utilisateur peut faire varier.
+On utilise encore la couche "Haies" de la BDTOPO, cette couche de lignes est interrogée d'après une distance tampon de recherche que l'utilisateur peut faire varier.
 
 les chemins vers ces couches et la couche scan 25 qui permet les exports cartogreaphiques sont à renseigner dans le corps du plugin avant de pouvoir l'utiliser:
 Il s'agit des lignes 97 à 102 du fichier dlgBox_LHP.py
