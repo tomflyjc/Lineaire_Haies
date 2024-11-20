@@ -4,7 +4,7 @@ QGIS 3.x plugin to calculate the length of hedges linked to farmers's plots with
 
 Lineaires_haies_pacage  
 Ce plugin est conçu pour les agents du Service Economie Agricole et Environnement des Exploitations de la DDT souhaitant disposer dans Qgis_3
-d'une fonctionnalité dédié à l'instruction des demandes de modifications des linéaires de haies, à partir des couches téléchargées sur ISIS.
+d'une fonctionnalité dédié à l'instruction des demandes de modifications des linéaires de haies, à partir des couches téléchargées sur ISIS (TELEPAC).
 L'outil calcule la somme totale des longueurs de haies pour l'ensemble de parcelles ayant un certain numero PACAGE.
 Les parcelles étant sélectionnées par intersection entre les polygones des deux couches:
 Pour télécharger les données:                                                                 
